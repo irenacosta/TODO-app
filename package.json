@@ -1,0 +1,26 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "description": "app de gerenciamento de tarefas",
+  "main": "index.js",
+  "directories": {
+    "test": "test",
+    "start": "nodemon ./src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/irenacosta/TODO-app/issues"
+  },
+  "homepage": "https://github.com/irenacosta/TODO-app#readme",
+  "devDependencies": {
+    "jest": "^28.0.2",
+    "nodemon": "^2.0.15",
+    "supertest": "^6.2.3"
+  },
+  "dependencies": {
+    "express": "^4.18.0",
+    "sqlite3": "^5.0.5"
+  }
+}
